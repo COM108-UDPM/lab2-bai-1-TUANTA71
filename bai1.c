@@ -8,18 +8,18 @@ int main() {
     printf("COM108, LAB2 - bai1\n");
 
     // Cac lenh nhap vao so A
-
-    
-
+    printf("Moi ban nhap vao so A: ");
+    int soA;
+    scanf("%d", &soA);
 
     // Cac lenh nhap vao so B
+    printf("Moi ban nhap vao so B: ");
+    int soB;
+    scanf("%d", &soB);
 
-    
+    // Cac lenh tinh tong cac so A, B
+    int tong = soA + soB;
+    printf("Tong hai so A va B la: %d", tong);
 
-
-    // Cac lenh tinh tong cac so A, va B
-
-    
-    
     return 0;
 }
